@@ -1,0 +1,808 @@
+/* tong app */
+.all {
+    width: 100%;
+    height: auto;
+    background: white;
+}
+
+/* trang chu */
+.dodaithetrangchu {
+    width: 90%;
+}
+
+.chutheatrangchu {
+    color: black;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    hyphens: auto;
+    word-wrap: break-word;
+    width: auto;
+    display: inline;
+}
+
+.chutheatrangchu:hover {
+    color: #03acfb;
+}
+
+.dodaianhtrangchu {
+    width: 100%;
+    height: 144px;
+}
+
+.tendanhmuc {
+    color: #4F4F4F;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    hyphens: auto;
+    word-wrap: break-word;
+    width: auto;
+    display: inline;
+}
+
+.anhtinhot {
+    width: 95%;
+    height: 300px;
+}
+
+.aa {
+    display: inline;
+}
+
+.chutinhot {
+    width: 87%;
+}
+
+.tieudetinhot {
+    color: black;
+    font-size: 21px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    hyphens: auto;
+    word-wrap: break-word;
+    width: auto;
+    display: inline;
+}
+
+.tieudetinhot:hover {
+    color: #03acfb;
+}
+
+.noidungtinhot {
+    color: rgb(102, 100, 100);
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    hyphens: auto;
+    word-wrap: break-word;
+    width: auto;
+    display: inline;
+}
+
+.ngaydangtinhot {
+    color: rgb(102, 100, 100);
+    padding-top: 5px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hrtinhot {
+    width: 96.6%;
+}
+
+/* vien padding...*/
+.kc {
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding: 0px;
+}
+
+.vien {
+    border: solid 1px;
+}
+
+.chungdong {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chungdong1 {
+    display: flex;
+}
+
+.hr {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-style: inset;
+    border-width: 1px;
+}
+
+
+/* post */
+
+.anh {
+    width: 100%;
+    height: 50%;
+}
+
+.anh1 {
+    width: 95%;
+    height: 100%;
+
+}
+
+.chu {
+    font-weight: bold;
+    word-wrap: break-word;
+}
+
+
+
+.comment {
+    width: 95%;
+    resize: none;
+    border: solid 1px rgb(128, 124, 124);
+    border-radius: 4px;
+}
+
+.comment1 {
+    width: 95%;
+    resize: none;
+    border: solid 1px rgb(128, 124, 124);
+    height: 40px;
+    border-radius: 4px;
+}
+
+.mauxanh {
+    background: blue;
+    color: white;
+    
+}
+
+.di {
+    margin-left: 10px;
+    width: 125px;
+}
+
+.post {
+    width: 90%;
+    height: 1350px;
+    padding-left: 4%;
+    border: solid 1px rgb(126, 123, 123);
+    border-radius: 8px;
+}
+
+/* login register */
+.debangogiua {
+    height: 35px;
+}
+
+.login1 {
+    width: 70%;
+    margin-left: 15%;
+    height: auto;
+    padding-top: 100px;
+}
+
+.dodai1 {
+    width: 90%;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid rgb(167, 165, 165);
+    margin-top: 17px;
+    padding-left: 20px;
+}
+
+.dodai2 {
+    margin-left: 25%;
+    width: 50%;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid rgb(167, 165, 165);
+    margin-top: 17px;
+    padding-left: 20px;
+}
+
+.bam {
+    width: 90%;
+    height: 40px;
+    border: 1px solid rgb(167, 165, 165);
+    background: blue;
+    color: white;
+    margin-top: 17px;
+}
+
+.bam1 {
+    margin-left: 25%;
+    width: 50%;
+    height: 40px;
+    border: 1px solid rgb(167, 165, 165);
+    background: blue;
+    color: white;
+    margin-top: 17px;
+}
+
+.vien1 {
+    border-radius: 10px;
+    height: 300px;
+    border: solid 1px rgb(167, 165, 165);
+    text-align: center;
+}
+
+.chulogin {
+    font-family: Arial, sans-serif;
+    margin-right: 69%;
+    font-size: 14px;
+    display: inline;
+}
+
+.chulogin:hover {
+    text-decoration: underline;
+}
+
+/* quan ly tai khoan */
+.dodaiid {
+    width: 10%;
+    height: auto;
+    text-align: center;
+}
+
+.dodaitaikhoan {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.dodaimatkhau {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.dodaixoataikhoan {
+    width: 10%;
+    height: auto;
+    text-align: center;
+}
+
+.dauxoa {
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.cangiuathemtaikhoan {
+    padding-left: 45px;
+}
+
+.doimatkhau {
+    padding-right: 34%;
+    padding-top: 20px;
+}
+
+.nhaplaimatkhau {
+    padding-right: 29%;
+    padding-top: 20px;
+}
+
+.bamdoimatkhau {
+    margin-left: 25%;
+    width: 50%;
+    height: 40px;
+    border: 1px solid rgb(167, 165, 165);
+    background: blue;
+    color: white;
+    margin-top: 17px;
+    margin-top: 30px;
+}
+.quanlytaikhoan{
+    padding-left: 40px;
+}
+
+/* dang xuat */
+.dangxuat {
+    width: auto;
+    height: auto;
+
+}
+
+.anhdaidien {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.anhdaidienchuadangnhap {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 1.5px;
+}
+
+.anhdaidien1 {
+    margin-top: 6px;
+    margin-left: 35px;
+}
+
+.dangnhap {
+    width: 120px;
+    height: 35px;
+    border-radius: 20px;
+    border: solid 1px rgb(203, 202, 202);
+    margin-top: 3px;
+    margin-left: 35px;
+    display: flex;
+    cursor: pointer;
+    padding-left: 1px;
+
+}
+
+.dangnhap1 {
+    font-family: 'Times New Roman', Times, serif;;
+    padding-left: 7px;
+    padding-top: 3.4px;
+    font-size: 17px;
+}
+
+.dangnhap1:hover {
+    color: #32aae1;
+}
+
+.icontimkiem {
+    margin-top: 5px;
+    margin-left: 35px;
+    font-size: 19px;
+    cursor: pointer;
+    display: inline;
+}
+
+
+/* danh muc */
+.khungdanhmuc {
+    width: 100%;
+    height: auto;
+    border: solid 1px rgb(219, 216, 216);
+    display: flex;
+    margin-top: 5px;
+    border-left: none;
+    border-right: none;
+    justify-content: center;
+}
+
+/* danh muc cha */
+.nuthome{
+    font-size: 19px;
+    cursor: pointer;
+    
+}
+.danhmuccha {
+    font-family: Arial, sans-serif;
+    font-size: 17px;
+    hyphens: auto;
+    color: black;
+    word-wrap: break-word;
+
+}
+
+.danhmuccha:hover {
+    color: crimson;
+}
+
+.cachle {
+    width: 100px;
+}
+
+.dieuhuong {
+    font-size: 20px;
+    padding-top: 6px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.dieuhuong1 {
+    font-size: 18px;
+    padding-top: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+
+
+
+/* danh muc con */
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: center;
+    border-top: 1px solid crimson;
+    width: 160px;
+}
+
+li {
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    border: none;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: -55px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+
+.dropdown li {
+    margin: 0;
+}
+
+.dropdown a {
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+
+li:hover .dropdown {
+    display: block;
+}
+
+.danhmuccon {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    hyphens: auto;
+    color: black;
+    word-wrap: break-word;
+    padding: 10px 20px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.danhmuccon:hover {
+    text-decoration: underline;
+    color: crimson;
+}
+
+/* khi da dang nhap */
+
+.dropdown1 {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: -70px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+
+.dropdown1 li {
+    margin: 0;
+}
+
+.dropdown1 a {
+    padding: 10px 20px;
+    white-space: nowrap;
+}
+
+li:hover .dropdown1 {
+    display: block;
+}
+
+/* tim kiem*/
+
+.chutheatimkiem {
+    color: black;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    hyphens: auto;
+    word-wrap: break-word;
+    width: auto;
+    display: inline;
+}
+
+.dodaianhtimkiem {
+    width: 97%;
+    height: 180px;
+}
+
+.noidungtimkiem {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(65, 64, 64);
+}
+
+.cachxa {
+    height: 7px;
+}
+
+.chutimkiem {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+.thechuainput {
+    width: 98%;
+}
+
+.theinputtimkiem {
+    width: 94%;
+    height: 40px;
+    padding-left: 12px;
+    border-radius: 3px;
+    border-right: none;
+    border: solid 1px rgb(168, 164, 164);
+    outline: none;
+}
+
+.input-container {
+    position: relative;
+    width: 98%;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 10px;
+    padding-right: 40px;
+    /* Chừa chỗ cho biểu tượng */
+    border: 1px solid #8f8c8c;
+    border-radius: 4px;
+    /* Làm tròn các góc */
+    box-sizing: border-box;
+    /* Đảm bảo padding không làm thay đổi kích thước */
+}
+
+.input-container .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666363;
+    /* Màu của biểu tượng */
+    cursor: pointer;
+}
+
+.ngaydangtimkiem {
+    padding-top: 5px;
+    color: rgb(87, 86, 86);
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hrtimkiem {
+    width: 99.4%;
+    margin-left: 0.4%;
+}
+
+/* chi tiet*/
+.dodaianhchitiet {
+    width: 97%;
+    height: 500px;
+}
+
+.tieudechitiet {
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    hyphens: auto;
+    word-wrap: break-word;
+    width: auto;
+}
+
+.noidungchitiet {
+    width: 97%;
+    height: auto;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    white-space: pre-wrap;
+}
+
+.chumysql {
+    font-size: 20px;
+}
+
+/* bai goi y*/
+.baigoiy {
+    width: 230px;
+    height: auto;
+}
+
+.tieudebaigoiy {
+    color: black;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    hyphens: auto;
+    word-wrap: break-word;
+    width: auto;
+    display: inline;
+}
+
+.tieudebaigoiy:hover {
+    color: #03acfb;
+}
+
+.noidungbaigoiy {
+    font-size: 13px;
+    height: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(40, 38, 38);
+    padding-left: 10px;
+    overflow: hidden;
+}
+
+.anhbaigoiy {
+    width: 110px;
+    height: 60px;
+}
+
+.khoangcachbaigoiy {
+    width: auto;
+    height: 7px;
+}
+
+/* modal */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 100;
+    /* Sit on top */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    position: relative;
+    top: 20%;
+    bottom: 20%;
+    left: 30%;
+    right: 30%;
+    border: 1px solid #888;
+    width: 40%;
+    height: 60%;
+    text-align: center;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.dauthemtaikhoan {
+    cursor: pointer;
+    margin-top: 22px;
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.cangiua {
+    text-align: center;
+}
+
+/* ngay dang*/
+.ngaygio {
+    position: relative;
+}
+
+.ngaydang {
+    color: rgb(87, 86, 86);
+    font-size: 0.9em;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;
+}
+
+.ngaydang1 {
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*footer*/
+.hrft1 {
+    width: 97%;
+}
+
+.chantrang {
+    font-size: 18px;
+    display: inline;
+}
+
+.chantrang:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.chuchantrang {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.cachleft {
+    padding-left: 20px;
+}
+
+.cachright {
+    padding-right: 10px;
+}
+
+/* quan ly tin tuc */
+.delete {
+    margin-left: 17px;
+}
+
+/* quan ly danh muc */
+.quanlydanhmuc {
+    padding-left: 120px;
+}
+
+.dauthemdanhmuc {
+    cursor: pointer;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.dodai3 {
+    margin-left: 25%;
+    width: 50%;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid rgb(167, 165, 165);
+    margin-top: 5px;
+    padding-left: 5px;
+}
+.themdanhmuc {
+    padding-right: 33%;
+    padding-top: 20px;
+}
+
+.themdanhmuc1 {
+    padding-right: 29%;
+    padding-top: 10px;
+}
+.themdanhmuc2 {
+    padding-right: 34%;
+    padding-top: 20px;
+}
+.themdanhmuc3 {
+    padding-right: 38%;
+    padding-top: 20px;
+}
